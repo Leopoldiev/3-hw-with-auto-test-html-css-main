@@ -111,7 +111,7 @@ select:hover,
 .books-list {
     display: flex;
     flex-direction: column;
-    gap:16px/* 📍 Свойства flexbox для отступов между элементами в списках */
+    gap:16px;/* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
 .frameworks-list {
@@ -173,7 +173,7 @@ form {
 
 .btn:hover {
    background-color: rgba(41, 101, 241, 0.9);/* 📍 Стили для кнопки при наведении курсора */
-   cursor:pointer
+   cursor:pointer;
 }
 
 .line {
